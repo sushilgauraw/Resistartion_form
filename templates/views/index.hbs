@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+{{!-- inline style --}}
+<style>
+  .box{
+    position: relative;
+    left: 40%;
+    top: -180px;
+  }
+  .box p{
+      width: 50%;
+  }
+  .right{
+    position: relative;
+    left: 60%;
+  }
+  .box1{
+    position: relative;
+    left: 20px;
+    top: -200px;
+  }
+  .box1 p{
+    width: 50%;
+  }
+</style>
+
+<body>
+  {{>navbar}}
+
+  <div class="img-fluid row row-cols-1 row-cols-md-3 g-4">
+  <div class=" col col-sm-6 mb-3 mb-sm-0 w-25 p-3 ">
+    <div class="card">
+      <div class="card-body">
+       <img src="https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 mb-3 mb-sm-0 w-25 p-3 ">
+    <div class="card">
+      <div class="card-body">
+            <img src="https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 w-25 p-3">
+    <div class="card">
+      <div class="card-body">
+           <img src="https://images.pexels.com/photos/459653/pexels-photo-459653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 w-25 p-3">
+    <div class="card">
+      <div class="card-body">
+            <img src="https://images.pexels.com/photos/2740956/pexels-photo-2740956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+ {{!-- left side --}}
+
+<div class="img-thumbnail img-fluid ">
+<img src="https://img.freepik.com/free-vector/autism-concept-illustration_114360-5084.jpg?w=740&t=st=1692000686~exp=1692001286~hmac=d44f4df336421624048580a5796d3670772e541b4d6783d69b54f6d1881e6708" class="img-fluid" alt="..." style="height: 18rem;" >
+<div class="box ">
+  <div class="box-item">
+<h2> Hello,I am Frontend Developer</h2>
+<p> My Name Is Sushil Gauraw I Have Multiple Type Skill I Have Done With Course In Frontend Developer Course With LearnCodeOnline,in INeron.Platform.  </p>
+  </div>
+</div>
+</div>
+
+
+{{!-- right side --}}
+
+<div class="img-thumbnail img-fluid position-relative">
+<img src="https://img.freepik.com/premium-vector/full-stack-developer-working-computer-it-professional-programmer-coding-website-creation-proccess-computer-technology_277904-5495.jpg?w=740" class="img-fluid right " alt="..." style="height: 25rem;" >
+<div class="box1 ">
+  <div class="box-item">
+<h2> Hello,I am Full Stack Developer</h2>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id fugiat, dolorum eum in cumque, ex cum, sint facere recusandae ipsum aliquam. Tempore iste voluptas possimus nihil repellat, nulla error?  </p>
+  </div>
+</div>
+</div>
+
+{{!-- //footer --}}
+ <div class="card-footer text-center">
+        <i><small class="text-body-secondary fa-light fa-envelopes-bulk"> sushilgauraw1996@gmail.com</small></i>
+      </div>
+</body>
+</html>
+
+

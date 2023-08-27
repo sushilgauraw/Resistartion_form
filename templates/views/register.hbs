@@ -1,0 +1,27 @@
+<body>
+    {{>navbar}}
+
+    <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary m-5 p-5 ">
+       <div class="text-center p-2 mt-2">
+      <h2>Create The Registration Form.</h2>
+    </div>
+    <form action="/register" method="post">
+  <div class="mb-3">
+    <label type ="text" class="form-label" >First Name</label>
+    <input type="text" class="form-control border-secondary-subtle" id="exampleInputEmail1" aria-describedby="emailHelp" name = "first_name">
+    <label for="exampleInputEmail1" class="form-label">Last Name</label>
+    <input type="text" class="form-control border-secondary-subtle" id="exampleInputEmail1" aria-describedby="emailHelp" name = "last_name">
+      <label for="exampleInputEmail1" class="form-label">Email Address</label>
+    <input type="email" class="form-control border-secondary-subtle" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+
+    <input type="password" class="form-control border-secondary-subtle" id="exampleInputPassword1" name="password">
+  </div>
+  <button type="submit" class="btn btn-dark" value="register">Submit</button>
+</form>
+    </div>
+</body>
+</html>
